@@ -1,3 +1,4 @@
+![qimai](https://github.com/AntiCrawlerSolution/qimai_spider/blob/master/static/qimai_logo.png)
 # qimai_spider
 七麦网站爬虫 (解决自动化登陆请求、破解请求签名算法、识别登陆验证码)
 
