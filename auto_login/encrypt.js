@@ -123,7 +123,7 @@ function Base64() {
     return String[n](a)
     }
     function f(a) {
-    var n = "a12c0fa6ab9119bc90e4ac7700796a53";
+    var n = "00000008d78d46a";
     a = a.split("");
     for (var e = a.length,
     t = n.length,
@@ -149,14 +149,16 @@ function Base64() {
         })
     }
         p = p.sort().join("");
-    console.log(p);
+    // console.log(p);
         p = h(p);
         a = p + "@#" + url.replace("https://api.qimai.cn", "") + "@#" + e() + "@#1";
-    console.log(a);
+    // console.log(a);
     result = h(f(a));
     params.analysis = result;
     params = JSON.stringify(params);
     return params;
     }
     
+    // 20190217 加密更新
+    //  f()函数中的n = 'a12c0fa6ab9119bc90e4ac7700796a53'  改成  n = '00000008d78d46'
     
